@@ -1,0 +1,106 @@
+aid: intrinsic-ai
+name: Intrinsic
+description: >-
+  Intrinsic is a Mountain View, California industrial robotics software company
+  spun out of Alphabet's X "moonshot factory" and led by CEO Wendy Tan White.
+  Its mission is to make industrial robots radically easier to program, use,
+  and innovate with so that automation is accessible to a much broader range
+  of businesses. Intrinsic's flagship product is Intrinsic Flowstate, an
+  all-in-one web-based developer environment for designing, building,
+  simulating, and deploying production-grade robotics solutions, paired with
+  Intrinsic Intelligence — a portfolio of AI-powered capabilities including
+  pose estimation, motion planning, grasp planning, and sensor-guided control
+  — and IntrinsicOS, a robot operating system that spans cloud to edge.
+  Developers extend Flowstate by writing Skills and Services in Python and
+  C++ via the open-source Intrinsic SDK (Apache-2.0), or compose them
+  visually via behavior trees in the Flowstate Process Editor. The platform
+  integrates deeply with ROS through Intrinsic's 2022 acquisition of Open
+  Source Robotics Corporation (OSRC) — the commercial arm of Open Robotics —
+  while ROS, Gazebo, and Open-RMF stewardship remain with the independent
+  OSRF non-profit. Flowstate is currently in a gated beta / trusted-tester
+  program; production access is granted to enterprise customers, systems
+  integrators, and participants in programs such as the AI for Industry
+  Challenge. Pricing is not publicly disclosed and there is no self-service
+  developer signup.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Industrial Robotics
+  - Robotics
+  - Automation
+  - Manufacturing
+  - AI for Robotics
+  - Embodied AI
+  - Motion Planning
+  - Pose Estimation
+  - Grasp Planning
+  - Behavior Trees
+  - Digital Twin
+  - Simulation
+  - ROS
+  - Robot Operating System
+  - IntrinsicOS
+  - Flowstate
+  - Skills
+  - Services
+  - Alphabet
+  - X Moonshot
+url: https://raw.githubusercontent.com/api-evangelist/intrinsic-ai/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.intrinsic.ai
+  - type: Platform
+    url: https://www.intrinsic.ai/platform
+  - type: Flowstate
+    url: https://www.intrinsic.ai/flowstate
+  - type: IntrinsicIntelligence
+    url: https://www.intrinsic.ai/intrinsic-intelligence
+  - type: Documentation
+    url: https://flowstate.intrinsic.ai/docs/
+  - type: DeveloperPortal
+    url: https://flowstate.intrinsic.ai/
+  - type: SDK
+    url: https://github.com/intrinsic-ai/sdk
+  - type: SDKExamples
+    url: https://github.com/intrinsic-ai/sdk-examples
+  - type: ROSWrappers
+    url: https://github.com/intrinsic-ai/sdk-ros
+  - type: ROSExamples
+    url: https://github.com/intrinsic-ai/sdk-ros-examples
+  - type: AIChallenge
+    url: https://github.com/intrinsic-dev/aic
+  - type: GitHub
+    url: https://github.com/intrinsic-ai
+  - type: License
+    url: https://www.apache.org/licenses/LICENSE-2.0
+  - type: Beta
+    url: https://www.intrinsic.ai/flowstate
+  - type: RequestDemo
+    url: https://www.intrinsic.ai/request-a-demo
+  - type: Company
+    url: https://www.intrinsic.ai/company
+  - type: Careers
+    url: https://www.intrinsic.ai/careers
+  - type: Blog
+    url: https://www.intrinsic.ai/blog
+  - type: Newsroom
+    url: https://www.intrinsic.ai/blog
+  - type: Press
+    url: https://www.intrinsic.ai/press
+  - type: Contact
+    url: https://www.intrinsic.ai/contact
+  - type: Twitter
+    url: https://twitter.com/intrinsicai
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/intrinsic-ai
+  - type: YouTube
+    url: https://www.youtube.com/@intrinsicai
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
