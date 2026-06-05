@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "intrinsic": "https://www.intrinsic.ai/vocab#",
+    "ros": "https://www.ros.org/vocab#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+
+    "Organization": "schema:Organization",
+    "SoftwareApplication": "schema:SoftwareApplication",
+    "WebAPI": "schema:WebAPI",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "logo": "schema:logo",
+    "foundingDate": "schema:foundingDate",
+    "parentOrganization": "schema:parentOrganization",
+    "sameAs": "schema:sameAs",
+    "industry": "schema:industry",
+    "knowsAbout": "schema:knowsAbout",
+
+    "Flowstate": {
+      "@id": "intrinsic:Flowstate",
+      "@type": "SoftwareApplication",
+      "schema:description": "Intrinsic's all-in-one web-based developer environment for designing, building, simulating, and deploying production-grade robotics solutions."
+    },
+    "IntrinsicOS": {
+      "@id": "intrinsic:IntrinsicOS",
+      "@type": "SoftwareApplication",
+      "schema:description": "Intrinsic's robot operating system spanning cloud to edge."
+    },
+    "IntrinsicIntelligence": {
+      "@id": "intrinsic:IntrinsicIntelligence",
+      "@type": "intrinsic:AICapabilityPortfolio",
+      "schema:description": "AI-powered capabilities including pose estimation, motion planning, grasp planning, and sensor-guided control."
+    },
+    "Skill": {
+      "@id": "intrinsic:Skill",
+      "@type": "intrinsic:RoboticsComponent",
+      "schema:description": "A reusable robotics behavior component authored in Python or C++ via the Intrinsic SDK."
+    },
+    "Service": {
+      "@id": "intrinsic:Service",
+      "@type": "intrinsic:RoboticsComponent",
+      "schema:description": "A long-running robotics process component exposed as a service within Flowstate."
+    },
+    "BehaviorTree": {
+      "@id": "intrinsic:BehaviorTree",
+      "@type": "intrinsic:ControlStructure",
+      "schema:description": "A tree-based visual composition mechanism used in the Flowstate Process Editor to orchestrate robot skills."
+    },
+    "MotionPlanning": {
+      "@id": "intrinsic:MotionPlanning",
+      "@type": "intrinsic:AICapability",
+      "schema:description": "AI-powered computation of collision-free robot trajectories between start and goal configurations."
+    },
+    "PoseEstimation": {
+      "@id": "intrinsic:PoseEstimation",
+      "@type": "intrinsic:AICapability",
+      "schema:description": "AI-powered determination of the 3D position and orientation of objects in a robot's workspace."
+    },
+    "GraspPlanning": {
+      "@id": "intrinsic:GraspPlanning",
+      "@type": "intrinsic:AICapability",
+      "schema:description": "AI-powered selection of stable grasp poses for robotic end-effectors picking objects."
+    },
+    "DigitalTwin": {
+      "@id": "intrinsic:DigitalTwin",
+      "@type": "intrinsic:SimulationConcept",
+      "schema:description": "A virtual replica of a physical robot cell or workcell used for offline programming and simulation in Flowstate."
+    },
+    "SDK": {
+      "@id": "intrinsic:SDK",
+      "@type": "schema:SoftwareSourceCode",
+      "schema:description": "The open-source (Apache-2.0) Intrinsic SDK providing Python and C++ APIs for authoring Skills and Services.",
+      "schema:codeRepository": "https://github.com/intrinsic-ai/sdk"
+    },
+    "ROS": {
+      "@id": "ros:RobotOperatingSystem",
+      "@type": "schema:SoftwareApplication",
+      "schema:description": "Robot Operating System; an open-source middleware suite for robot software development."
+    }
+  },
+  "@type": "Organization",
+  "name": "Intrinsic",
+  "url": "https://www.intrinsic.ai",
+  "industry": "Industrial Robotics Software",
+  "foundingDate": "2021",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Alphabet Inc.",
+    "url": "https://abc.xyz"
+  },
+  "knowsAbout": [
+    "Industrial Robotics",
+    "Motion Planning",
+    "Pose Estimation",
+    "Grasp Planning",
+    "Behavior Trees",
+    "Digital Twin Simulation",
+    "Robot Operating System",
+    "Embodied AI",
+    "Manufacturing Automation"
+  ],
+  "sameAs": [
+    "https://twitter.com/intrinsicai",
+    "https://www.linkedin.com/company/intrinsic-ai",
+    "https://www.youtube.com/@intrinsicai",
+    "https://github.com/intrinsic-ai"
+  ]
+}

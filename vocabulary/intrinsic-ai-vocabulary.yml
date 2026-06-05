@@ -1,0 +1,142 @@
+vocabulary:
+  name: Intrinsic AI Vocabulary
+  description: >-
+    Key industrial robotics and AI concepts used by Intrinsic's Flowstate
+    platform, IntrinsicOS, and Intrinsic Intelligence capability portfolio.
+  version: "1.0.0"
+  terms:
+    - term: Flowstate
+      definition: >-
+        Intrinsic's all-in-one web-based developer environment for designing,
+        building, simulating, and deploying production-grade robotics solutions.
+        Combines a visual process editor, simulation engine, and deployment
+        pipeline in a single interface.
+      tags:
+        - platform
+        - developer-tooling
+        - ide
+
+    - term: IntrinsicOS
+      definition: >-
+        Intrinsic's robot operating system that spans cloud to edge, providing
+        a unified runtime layer for executing Skills and Services on physical
+        and simulated robot hardware.
+      tags:
+        - operating-system
+        - edge-computing
+        - runtime
+
+    - term: IntrinsicIntelligence
+      definition: >-
+        A portfolio of AI-powered capabilities bundled with Flowstate, including
+        pose estimation, motion planning, grasp planning, and sensor-guided
+        control, enabling robots to perceive and act in unstructured environments.
+      tags:
+        - artificial-intelligence
+        - machine-learning
+        - perception
+
+    - term: Skill
+      definition: >-
+        A discrete, reusable robotics behavior unit authored in Python or C++
+        using the open-source Intrinsic SDK. Skills encapsulate a specific robot
+        action (e.g., pick, place, weld) and expose typed parameters for
+        composition in behavior trees.
+      tags:
+        - robotics
+        - software-component
+        - sdk
+
+    - term: Service
+      definition: >-
+        A long-running process component in the Flowstate architecture that
+        provides continuous functionality (e.g., vision streaming, force
+        monitoring) to Skills and other Services over defined interfaces.
+      tags:
+        - robotics
+        - software-component
+        - sdk
+
+    - term: BehaviorTree
+      definition: >-
+        A hierarchical, tree-structured control flow mechanism used in the
+        Flowstate Process Editor to compose and orchestrate robot Skills
+        visually. Nodes in the tree represent actions, conditions, sequences,
+        and fallbacks.
+      tags:
+        - control-flow
+        - visual-programming
+        - orchestration
+
+    - term: MotionPlanning
+      definition: >-
+        The computational process of generating a collision-free, kinematically
+        feasible trajectory for a robot manipulator between a start configuration
+        and a goal pose. Part of Intrinsic Intelligence.
+      tags:
+        - ai-capability
+        - kinematics
+        - trajectory
+
+    - term: PoseEstimation
+      definition: >-
+        AI-powered determination of the 6-DOF (position + orientation) of
+        objects in a robot's workspace from sensor data such as RGB images or
+        depth point clouds. Enables accurate pick-and-place without fixed
+        fixtures.
+      tags:
+        - ai-capability
+        - computer-vision
+        - perception
+
+    - term: GraspPlanning
+      definition: >-
+        Automated selection of stable grasp configurations for a robotic
+        end-effector to successfully pick an object. Accounts for object
+        geometry, gripper kinematics, and workspace constraints.
+      tags:
+        - ai-capability
+        - manipulation
+        - end-effector
+
+    - term: DigitalTwin
+      definition: >-
+        A virtual replica of a physical robot cell or workcell, including
+        robot models, fixtures, conveyors, and tooling, used for offline
+        programming, simulation, and validation in Flowstate before deployment
+        to physical hardware.
+      tags:
+        - simulation
+        - digital-manufacturing
+        - virtual-commissioning
+
+    - term: ROS
+      definition: >-
+        Robot Operating System — an open-source middleware framework providing
+        tools, libraries, and conventions for robot software development.
+        Intrinsic deepened ROS integration through its 2022 acquisition of Open
+        Source Robotics Corporation (OSRC).
+      tags:
+        - open-source
+        - middleware
+        - ecosystem
+
+    - term: SensorGuidedControl
+      definition: >-
+        A control paradigm where real-time sensor feedback (force/torque,
+        vision, proximity) is used to dynamically adjust robot motion during
+        task execution, enabling adaptive handling of part variation.
+      tags:
+        - control
+        - feedback
+        - ai-capability
+
+    - term: Workcell
+      definition: >-
+        A bounded physical or virtual workspace containing one or more robot
+        arms, end-effectors, fixtures, conveyors, and sensors that collectively
+        perform an automated manufacturing task.
+      tags:
+        - manufacturing
+        - robotics
+        - factory-floor
