@@ -65,7 +65,7 @@ common:
     url: https://flowstate.intrinsic.ai/docs/
   - type: DeveloperPortal
     url: https://flowstate.intrinsic.ai/
-  - type: SDK
+  - type: SDKs
     url: https://github.com/intrinsic-ai/sdk
   - type: SDKExamples
     url: https://github.com/intrinsic-ai/sdk-examples
